@@ -1,6 +1,6 @@
 # Android application for Running Sport
 
-The ScreenShots
+
 ![d1](https://user-images.githubusercontent.com/40376977/66261823-5102e680-e7cc-11e9-81b1-f9429f222e85.png)
 ![d2](https://user-images.githubusercontent.com/40376977/66261824-519b7d00-e7cc-11e9-801b-189eb8e154f8.png)
 ![d3](https://user-images.githubusercontent.com/40376977/66261825-519b7d00-e7cc-11e9-9d2a-18e2e29ac485.png)
