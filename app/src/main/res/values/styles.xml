@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+    <style name="myCoustumTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#111111</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextColor">#c7c7c7</item>
+        <item name="tabSelectedTextColor">#111111</item>
+
+    </style>
+
+
+
+
+</resources>

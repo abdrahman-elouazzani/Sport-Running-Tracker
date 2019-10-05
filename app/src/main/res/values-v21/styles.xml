@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ThemeRunActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#d5ff44</item>
+        <item name="android:colorPrimaryDark">#111111</item>
+        <item name="android:colorAccent">#111111</item>
+        <item name="android:textColor">#111111</item>
+
+
+    </style>
+
+    <style name="ThemeHistoryActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">#d5ff44</item>
+        <item name="android:colorPrimaryDark">#111111</item>
+        <item name="android:colorAccent">#111111</item>
+    </style>
+</resources>

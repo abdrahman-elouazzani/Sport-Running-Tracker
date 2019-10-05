@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ma.elouazzani.elouazzani.running" >
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="ma.elouazzani.elouazzani.run.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".run_activity.Run_activity_main"
+            android:label=""
+            android:theme="@style/ThemeRunActivity" >
+        </activity>
+        <activity
+            android:name=".programmes.Programme_activity"
+            android:label="Run+"
+            android:theme="@style/ThemeRunActivity" >
+        </activity>
+        <activity
+            android:name=".programmes.Programme_activity_2"
+            android:label="Run+"
+            android:theme="@style/ThemeRunActivity" >
+        </activity>
+        <activity
+            android:name=".programmes.Programme_activity_3"
+            android:label="Run+"
+            android:theme="@style/ThemeRunActivity" >
+        </activity>
+        <activity
+            android:name=".programmes.Programme_activity_4"
+            android:label="Run+"
+            android:theme="@style/ThemeRunActivity" >
+        </activity>
+        <activity
+            android:name=".runing.Runing"
+            android:label="Run+" >
+        </activity>
+        <activity
+            android:name=".history.History"
+            android:label=""
+            android:theme="@style/ThemeHistoryActivity" >
+        </activity>
+        <activity
+            android:name=".runing.Gps_Activity"
+            android:label="Location"
+            android:theme="@style/ThemeRunActivity">
+        </activity>
+    </application>
+
+</manifest>

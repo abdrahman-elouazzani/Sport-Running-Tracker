@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ma.elouazzani.elouazzani.running.runing.Gps_Activity">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="ma.elouazzani.elouazzani.running.run_activity.Location_Fragment"
+        android:id="@+id/map"
+         />
+
+</RelativeLayout>

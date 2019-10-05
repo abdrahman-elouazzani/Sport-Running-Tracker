@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@drawable/recycler_back"
+    android:layout_margin="5dp"
+    android:elevation="0dp"
+    android:layout_height="130dp">
+   <ImageView
+       android:id="@+id/trajet"
+       android:layout_width="100dp"
+       android:layout_height="80dp"
+       android:paddingBottom="24dp"
+       android:paddingLeft="8dp"
+       android:src="@drawable/runing_icon"
+      />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:id="@+id/date"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="12/09/2018"/>
+
+<RelativeLayout
+    android:id="@+id/rl1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/date"
+    android:layout_marginTop="10dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <ImageView
+        android:id="@+id/ic_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:src="@mipmap/ic_timer_white_24dp"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ic_time"
+        android:text="00:16"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:padding="8dp"/>
+
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rl1"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@+id/ic_road"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/road"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ic_road"
+            android:text="15,8 km"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:padding="8dp"/>
+    </RelativeLayout>
+
+
+
+        <ImageView
+            android:id="@+id/setting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="16dp"
+            android:src="@drawable/delete_icon"
+            />
+
+
+</RelativeLayout>

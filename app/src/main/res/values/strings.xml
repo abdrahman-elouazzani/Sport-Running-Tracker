@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Running +</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="banner">ca-app-pub-6801991288885228/8239942792</string>
+    <string name="admob_intestitial">ca-app-pub-6801991288885228/9716675991</string>
+
+    
+    
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Programmme 1 -->
+    <string name="title1">1. Run no farther or faster than you have to.</string>
+    <string name="description1">In other words,strive for optimal training benefits with the least amount of work
+    ...</string>
+    <string name="fullText1"><![CDATA[
+        In other words, strive for optimal training benefits with the least amount of work. This is the cardinal
+        rule of Daniels"'"s training philosophy. As he likes to put it: "If I said that you could run a five-minute
+        mile with one program that took 30 miles a week or another program that took 80 miles a week,
+        which would you choose?" The answer"'"s a no-brainer, of course, but many runners nonetheless
+        train too hard and too inefficiently. The outcome is worse performances, not better ones.
+        Daniels tries to cut out the waste, maximizing improvement and minimizing injuries.
+        A corollary to this rule: Whenever you do a workout, know what you"'"re trying to achieve.
+        Is it endurance? Speed? Running economy? If you"'"re training intelligently, you"'"ll know the answer before you begin to sweat.]]>
+    </string>
+
+
+    <!-- Programmme 2 -->
+    <string name="title2">2. Avoid injuries."\n"</string>
+    <string name="description2">Duh. Who doesn"'"t pay homage to this old chestnut? But it"'"s easier said than done
+    ...</string>
+    <string name="fullText2">
+       <![CDATA[ Duh. Who doesn"'"t pay homage to this old chestnut? But it"'"s easier said than done.
+        To help you escape the trap of overuse injuries, Daniels offers the following formula:
+        Stick with your current weekly mileage for at least three weeks. Then, if your training feels comfortable,
+        you can increase your weekly mileage by the number of workouts you are running per week (that is to say,]]>
+        if you"'"re doing four workouts, you can increase by four miles).
+    </string>
+    <!-- Programmme 3 -->
+    <string name="title3">3. Pump up your stride rate to 180 per minute.</string>
+    <string name="description3">At the 1984 Olympics, Daniels and his wife, Nancy, analyzed the stride frequencies of runners
+    ...</string>
+    <string name="fullText3">
+        <![CDATA[At the 1984 Olympics, Daniels and his wife, Nancy, analyzed the stride frequencies of runners
+        from 800 meters to the marathon. At distances from 5000 meters on up, the top runners,
+        both men and women, were remarkably consistent: They ran with a stride rate of about 180 strides per minute.]]>
+    </string>
+    <!-- Programmme 4 -->
+    <string name="title4">4. Run 75 to 80 percent of your weekly mileage at a relaxed pace.</string>
+    <string name="description4">This kind of running builds your basic aerobic capacity, and strengthens the key running muscles
+    ...</string>
+    <string name="fullText4">
+        <![CDATA[This kind of running builds your basic aerobic capacity, and strengthens the key running muscles,
+        joints, and ligaments. Your EZ pace is equivalent to your 5-K race pace, plus 90 to 120 seconds per mile.
+        (If you race 5-Ks at 8:00 pace, your EZ pace is 9:30 to 10:00.)]]>
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_location_">Location_Activity</string>
+    <string name="title_activity_gps_">Gps_Activity</string>
+</resources>
