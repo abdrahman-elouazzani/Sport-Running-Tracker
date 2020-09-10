@@ -1,4 +1,33 @@
-# Android application for Running Sport
+
+# Sport Running Tracker Distance
+The mobile app for android lets Running Tracker + track your distance and more, packaged in the simplest interface. It includes access to your music player + map to see your location. It also keeps a history of your running activities and improvements over time, and shows you a complete log of your running activities.
+
+## Features
+- Track your distance, average speed, time.
+- show your location.
+- access to your music player.
+- As a User you will be able to see your run activity include the following details :
+  1. `distance traveled.`
+  2. `Average Speed.`
+  3. `time.`
+  4. `your location.`
+- History for all your activities.
+
+## Installation
+Clone this repository and import into **Android Studio**
+```bash
+git clone git@github.com:wolox/Sport-Running-Tracker.git
+```
+##  Libraries Used
+- The Front-End Using [the Material Design](https://material.io/design/) library contains : 
+  1. [navigation drawer](https://developer.android.com/guide/navigation/navigation-ui).
+  2. [RecyclerView](https://material.io/components/lists) to list the items (repository).
+  2. [TabView](https://developer.android.com/guide/navigation/navigation-swipe-view).
+ ...<br/>
+ 
+- [SQLITE](https://developer.android.com/reference/android/database/sqlite/package-summary)
+
+## The Previews 
 
 
 ![d1](https://user-images.githubusercontent.com/40376977/66261823-5102e680-e7cc-11e9-81b1-f9429f222e85.png)
